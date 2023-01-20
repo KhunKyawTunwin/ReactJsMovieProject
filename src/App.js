@@ -7,14 +7,6 @@ import SearchIcon from "./search.svg";
 
 const API_URL = "https://www.omdbapi.com?apikey=95dfdeb3";
 
-// const movie1 = {
-//   Title: "Hope Springs Eternal: A Look Back at 'The Shawshank Redemption'",
-//   Year: "2004",
-//   imdbID: "tt0443041",
-//   Type: "movie",
-//   Poster: "N/A",
-// };
-
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
